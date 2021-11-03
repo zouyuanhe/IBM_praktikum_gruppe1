@@ -1,0 +1,10 @@
+name: Deploy Model with Triton Inference Server
+
+metadata:
+  annotations:
+    author: Sebastian Lehrig <Sebastian.Lehrig1@ibm.com>
+implementation:
+  container:
+    image: app.kubernetes.io/component=ibm-praktikum-gruppe-1
+
+    
